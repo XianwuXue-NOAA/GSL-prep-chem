@@ -5,4 +5,5 @@ module load hdf5/1.10.5
 module load netcdf/4.7.0
 module list
 #env
+export HDF5_ROOT=${HDF5}
 make OPT=intel.fv3 CHEM=RADM_FV3 $1
